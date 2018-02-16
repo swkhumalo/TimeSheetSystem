@@ -1,0 +1,129 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background: url('../Pictures/blur.jpg');
+    background-size: cover;
+    font-family: 'Comic Sans MS';
+}
+.title{
+    text-align: center;
+    padding: 50px 0 20px;
+}
+.title h1{
+    margin: 0;
+    padding: 0;
+    color: #262626;
+    text-transform: uppercase;
+    font-size: 36px;
+}
+.container{
+    width: 50%;
+    height: 400px;
+    background: #fff;
+    margin: 0 auto;
+    border: 2px solid #fff;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.7);
+}
+.container .left {
+        float: left;
+        width: 50%;
+        height: 400px;
+        background: url('../Pictures/bed_and_breakfast.jpg');
+        background-size: cover;
+        box-sizing: border-box;
+    }
+.container .right{
+    float: right;
+    width: 50%;
+    height: 400px;
+    box-sizing: border-box;
+}
+.formBox{
+    width: 100%;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    height: 400px;
+    background: #fff;
+}
+.formBox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #000dfc;
+}
+.formBox input
+{
+   padding: 10px 0;
+   margin-bottom: 30px;
+}
+.formBox input
+{
+   width: 100%;
+   box-sizing: border-box;
+   box-shadow: none;
+   outline: none;
+   border: none;
+   border-bottom: 2px solid #999;
+}
+.formBox form div
+{
+   position: relative;
+}
+.formBox form label
+{
+   position: absolute;
+   top: 10px;
+   left: 0;
+   color: #999;
+   transition: .5s;
+   pointer-events: none;
+}
+.formBox input:focus ~ label,
+.formBox input:valid ~ label
+{
+   top: -12px;
+   left:0;
+   color: #000dfc;
+   font-size: 12px;
+   font-weight: bold;
+}
+.formBox input:focus,
+.formBox input:valid 
+{
+        border-bottom: 2px solid #000dfc;
+}
+.formBox .button{
+    border: none;
+    border-bottom: none;
+    outline: none;
+    height: 40px;
+    width: 100%;
+    color: #fff;
+    background: #262626;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.formBox .button:hover{
+    background: #000dfc;
+}
+
+.formBox .guest{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 100%;
+    color: #fff;
+    background: #262626;
+    cursor: pointer;
+}
+.formBox .guest:hover{
+    background: #000dfc;
+}
+.formBox .Linkbutton{
+    color: #262626;
+    font-size: 12px;
+    font-weight: bold;
+}
+.formBox .Linkbutton:hover {
+    color: #000dfc;
+}

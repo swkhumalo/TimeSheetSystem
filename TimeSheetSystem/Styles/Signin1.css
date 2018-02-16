@@ -1,0 +1,379 @@
+﻿#tm-section-4 {
+	margin: 0;
+	padding: 0;
+	background: url('../Pictures/glare-background-blur-dark.jpg');
+	background-size: cover;
+	font-family: 'Comic Sans MS';
+}
+.title{
+	text-align: center;
+	padding: 50px 0 20px;
+}
+.title h1{
+	margin: 0;
+	padding: 0;
+	color: #262626;
+	text-transform: uppercase;
+	font-size: 36px;
+}
+.container{
+	width: 70%;
+	height: 500px;
+	background: #fff;
+	margin: 0 auto;
+	border: 2px solid #fff;
+	box-shadow: 0 15px 40px rgba(0,0,0,0.7);
+}
+.container .left {
+		padding-left: 50px;
+		float: left;
+		width: 50%;
+		height: 270px;
+		background: url('../BookPictures/room_deluxe.jpg');
+		background-size: cover;
+		box-sizing: border-box;
+	}
+.container .right{
+	float: right;
+	width: 50%;
+	height: 400px;
+	box-sizing: border-box;
+}
+.formBox{
+	width: 100%;
+	padding: 80px 40px;
+	box-sizing: border-box;
+	height: 400px;
+	background: #fff;
+}
+.container .right .formBox p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	color: #000dfc;
+}
+.container .right .formBox input
+{
+   padding: 10px 0;
+   margin-bottom: 30px;
+}
+.container .right .formBox input
+{
+   width: 100%;
+   box-sizing: border-box;
+   box-shadow: none;
+   outline: none;
+   border: none;
+   border-bottom: 2px solid #999;
+}
+.container .right .formBox div
+{
+   position: relative;
+	top: -25px;
+	left: 0px;
+}
+.container .right .formBox label
+{
+   position: absolute;
+   top: 10px;
+   left: 0;
+   color: #999;
+   transition: .5s;
+   pointer-events: none;
+}
+.container .right .formBox input:focus ~ label,
+.container .right .formBox input:valid ~ label
+{
+   top: -12px;
+   left:0;
+   color: #000dfc;
+   font-size: 12px;
+   font-weight: bold;
+}
+.container .right .formBox input:focus,
+.container .right .formBox input:valid 
+{
+		border-bottom: 2px solid #000dfc;
+}
+.container .right .formBox .button{
+	border: none;
+	border-bottom: none;
+	outline: none;
+	height: 40px;
+	width: 100%;
+	color: #fff;
+	background: #262626;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+.container .right .formBox .button:hover{
+	background: #000dfc;
+}
+.container .right .formBox .guest{
+	border: none;
+	outline: none;
+	height: 40px;
+	width: 100%;
+	color: #fff;
+	background: #262626;
+	cursor: pointer;
+}
+.container .right .formBox .guest:hover{
+	background: #000dfc;
+}
+.container .right .formBox .Linkbutton{
+	color: #262626;
+	font-size: 12px;
+	font-weight: bold;
+}
+.container .right .formBox .Linkbutton:hover {
+	color: #000dfc;
+}
+.formBox p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	color: #000dfc;
+}
+.formBox input
+{
+   padding: 10px 0;
+   margin-bottom: 30px;
+}
+.formBox input
+{
+   width: 100%;
+   box-sizing: border-box;
+   box-shadow: none;
+   outline: none;
+   border: none;
+   border-bottom: 2px solid #999;
+}
+.formBox div
+{
+   position: relative;
+}
+.formBox label
+{
+   position: absolute;
+   top: 10px;
+   left: 0;
+   color: #999;
+   transition: .5s;
+   pointer-events: none;
+}
+.formBox input:focus ~ label,
+.formBox input:valid ~ label
+{
+   top: -12px;
+   left:0;
+   color: #000dfc;
+   font-size: 12px;
+   font-weight: bold;
+}
+.formBox input:focus,
+.formBox input:valid 
+{
+		border-bottom: 2px solid #000dfc;
+}
+.formBox .button{
+	border: none;
+	border-bottom: none;
+	outline: none;
+	height: 40px;
+	width: 100%;
+	color: #fff;
+	background: #262626;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+.formBox .button:hover{
+	background: #000dfc;
+}
+.formBox .guest{
+	border: none;
+	outline: none;
+	height: 40px;
+	width: 100%;
+	color: #fff;
+	background: #262626;
+	cursor: pointer;
+}
+.formBox .guest:hover{
+	background: #000dfc;
+}
+.formBox .Linkbutton{
+	color: #262626;
+	font-size: 12px;
+	font-weight: bold;
+}
+.formBox .Linkbutton:hover {
+	color: #000dfc;
+}
+
+.container .left p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	color: #000dfc;
+}
+.container .left input
+{
+   padding: 10px 0;
+   margin-bottom: 30px;
+}
+.container .left input
+{
+   width: 100%;
+   box-sizing: border-box;
+   box-shadow: none;
+   outline: none;
+   border: none;
+   border-bottom: 2px solid #999;
+}
+.container .left div
+{
+   position: relative;
+	top: -33px;
+	left: 0px;
+	height: 75px;
+}
+.container .left label
+{
+   position: absolute;
+   top: 10px;
+   left: 0;
+   color: #999;
+   transition: .5s;
+   pointer-events: none;
+}
+.container .left input:focus ~ label,
+.container .left input:valid ~ label
+{
+   top: -12px;
+   left:0;
+   color: #000dfc;
+   font-size: 12px;
+   font-weight: bold;
+}
+.container .left input:focus,
+.container .left input:valid 
+{
+		border-bottom: 2px solid #000dfc;
+}
+.container .left .button{
+	border: none;
+	border-bottom: none;
+	outline: none;
+	height: 40px;
+	width: 100%;
+	color: #fff;
+	background: #262626;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+.container .left .button:hover{
+	background: #000dfc;
+}
+.container .left .guest{
+	border: none;
+	outline: none;
+	height: 40px;
+	width: 100%;
+	color: #fff;
+	background: #262626;
+	cursor: pointer;
+}
+.container .left .guest:hover{
+	background: #000dfc;
+}
+.container .left .Linkbutton{
+	color: #262626;
+	font-size: 12px;
+	font-weight: bold;
+}
+.container .left .Linkbutton:hover {
+	color: #000dfc;
+}
+
+.container .right p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	color: #000dfc;
+}
+.container .right input
+{
+   padding: 10px 0;
+   margin-bottom: 30px;
+}
+.container .right input
+{
+   width: 100%;
+   box-sizing: border-box;
+   box-shadow: none;
+   outline: none;
+   border: none;
+   border-bottom: 2px solid #999;
+}
+.container .right div
+{
+   position: relative;
+}
+.container .right label
+{
+   position: absolute;
+   top: 10px;
+   left: 0;
+   color: #999;
+   transition: .5s;
+   pointer-events: none;
+}
+.container .right input:focus ~ label,
+.container .right input:valid ~ label
+{
+   top: -12px;
+   left:0;
+   color: #000dfc;
+   font-size: 12px;
+   font-weight: bold;
+}
+.container .right input:focus,
+.container .right input:valid 
+{
+		border-bottom: 2px solid #000dfc;
+}
+.container .right .button{
+	border: none;
+	border-bottom: none;
+	outline: none;
+	height: 40px;
+	width: 100%;
+	color: #fff;
+	background: #262626;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+.container .right .button:hover{
+	background: #000dfc;
+}
+.container .right .guest{
+	border: none;
+	outline: none;
+	height: 40px;
+	width: 100%;
+	color: #fff;
+	background: #262626;
+	cursor: pointer;
+}
+.container .right .guest:hover{
+	background: #000dfc;
+}
+.container .right .Linkbutton{
+	color: #262626;
+	font-size: 12px;
+	font-weight: bold;
+}
+.container .right .Linkbutton:hover {
+	color: #000dfc;
+}

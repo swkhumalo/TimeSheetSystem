@@ -1,0 +1,41 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-color: #CCCCCC;
+    background-size: cover;
+}
+.auto-style1 .button{
+    border: none;
+    border-bottom: solid 2px;
+    outline: none;
+    height: 40px;
+    width: 100%;
+    color: #fff;
+    background: #262626;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.auto-style1 .button:hover{
+    background: #000dfc;
+}
+
+.auto-style1 .guest{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 100%;
+    color: #fff;
+    background: #262626;
+    cursor: pointer;
+}
+.auto-style1 .guest:hover{
+    background: #000dfc;
+}
+.auto-style1 .Linkbutton{
+    color: #262626;
+    font-size: 12px;
+    font-weight: bold;
+}
+.auto-style1 .Linkbutton:hover {
+    color: #000dfc;
+}
